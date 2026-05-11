@@ -1,3 +1,12 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2025/2026
+ *   Modul               : Foundation of Algorithm
+ *   Hari dan Tanggal    : Senin, 11 Mei 2026
+ *   Nama (NIM)          : Danny Rahmat Pratama (13224019)
+ *   Nama File           : Soal1.c
+ *   Deskripsi           : Mencari degree, degree maksimal, dan isolated vertex
+ * 
+ */
+
 #include <stdio.h>
 
 int getSum(int arr[], int n) {
