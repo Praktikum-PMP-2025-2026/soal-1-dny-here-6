@@ -28,6 +28,11 @@ int main(){
 
     int isIsolated[matSize];
 
+    // Insiasi isIsolated
+    for(int i = 0; i < matSize; i++){
+        isIsolated[i] = 0;
+    }
+
     // Input matrix
     int adjMat[matSize][matSize];
     for(int i = 0; i < matSize; i++){
