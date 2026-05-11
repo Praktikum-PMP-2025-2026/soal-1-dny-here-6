@@ -53,6 +53,7 @@ int main(){
     for(int i = 0; i < matSize; i ++){
         printf("DEGREE %d %d\n", i, degMat[i]);
     }
+    
     printf("MAX_VERTEX %d\n", idxMaxVertex);
 
     if(getSum(isIsolated, matSize) == 0){
