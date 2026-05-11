@@ -59,8 +59,8 @@ int main(){
     if(getSum(isIsolated, matSize) == 0){
         printf("ISOLATED NONE");
     } else{
+        printf("ISOLATED");
         for(int i = 0; i < matSize; i++){
-            printf("ISOLATED");
             if(isIsolated[i] == 1){
                 printf(" %d", i);
             }
