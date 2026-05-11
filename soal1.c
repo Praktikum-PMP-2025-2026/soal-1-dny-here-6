@@ -60,8 +60,9 @@ int main(){
         printf("ISOLATED NONE");
     } else{
         for(int i = 0; i < matSize; i++){
+            printf("ISOLATED")
             if(isIsolated[i] == 1){
-                printf("ISOLATED %d\n", i);
+                printf(" %d", i);
             }
         }
     }
